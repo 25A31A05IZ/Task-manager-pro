@@ -1,0 +1,32 @@
+task-manager-app/
+│
+├── backend/
+│   ├── server.js
+│   ├── package.json
+│   ├── .env
+│   │
+│   ├── config/
+│   │   └── db.js
+│   │
+│   ├── models/
+│   │   ├── User.js
+│   │   └── Task.js
+│   │
+│   ├── routes/
+│   │   ├── authRoutes.js
+│   │   └── taskRoutes.js
+│   │
+│   └── middleware/
+│       └── authMiddleware.js
+│
+├── frontend/
+│   ├── index.html
+│   ├── login.html
+│   ├── register.html
+│   ├── dashboard.html
+│   ├── css/
+│   │   └── style.css
+│   └── js/
+│       └── script.js
+│
+└── README.md
